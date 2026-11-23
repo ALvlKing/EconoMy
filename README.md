@@ -44,3 +44,29 @@ lib/
 ├── shared/
 │   └── facade/               # EconomyFacade (ponto único de integração e persistência)
 └── main.dart                 # Inicialização do app, temas e navegação principal
+
+## Como Executar Localmente
+
+### Pré-requisitos
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) instalado e configurado
+- Android SDK / JDK (para compilação Android)
+
+### Passos
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/ALvlKing/economy.git](https://github.com/ALvlKing/economy.git)
+   cd economy
+
+2. Instale as dependências:
+   ```bash
+   flutter pub get
+
+3. Execute o aplicativo em modo de desenvolvimento:
+   ```bash
+   flutter run
+
+4. (Opcional) Gere o APK de release para Android:
+   ```bash
+   flutter build apk --release
